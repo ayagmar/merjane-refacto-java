@@ -14,7 +14,6 @@ import org.springframework.test.web.servlet.MockMvc;
 
 import java.util.HashSet;
 import java.util.List;
-import java.util.Optional;
 import java.util.Set;
 
 import static org.junit.Assert.assertEquals;
@@ -62,7 +61,7 @@ public class OrderResourceIntegrationTests {
                 .andExpect(status().isOk());
 
         Product updatedProduct = productRepository.findById(product.getId()).get();
-        assertEquals(Optional.of(4), updatedProduct.getAvailable());
+        assertEquals(Integer.valueOf(4), updatedProduct.getAvailable());
     }
 
     @Test
