@@ -1,0 +1,38 @@
+[
+  {
+    "leadTime": 15,
+    "available": 30,
+    "type": "NORMAL",
+    "name": "USB Cable",
+    "expiryDate": null,
+    "seasonStartDate": null,
+    "seasonEndDate": null
+  },
+  {
+    "leadTime": 10,
+    "available": 0,
+    "type": "NORMAL",
+    "name": "USB Dongle",
+    "expiryDate": null,
+    "seasonStartDate": null,
+    "seasonEndDate": null
+  },
+  {
+    "leadTime": 15,
+    "available": 30,
+    "type": "EXPIRABLE",
+    "name": "Butter",
+    "expiryDate": "2024-07-01",
+    "seasonStartDate": null,
+    "seasonEndDate": null
+  },
+  {
+    "leadTime": 90,
+    "available": 6,
+    "type": "EXPIRABLE",
+    "name": "Milk",
+    "expiryDate": "2024-05-01",
+    "seasonStartDate": null,
+    "seasonEndDate": null
+  }
+]
